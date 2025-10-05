@@ -42,7 +42,7 @@ This is not strictly required but recommended for clarity:
 - Guideline #4: When modeling both sequential and combinational logic within the same always block, use nonblocking assignments.
 - Guideline #5: Do not mix blocking and nonblocking assignments in the same always block.
 - Guideline #6: Do not make assignments to the same variable from more than one always block.
-- Guideline #7: Use proper indentation
-- Guideline #8: Unless it's vendor's ip or examples, do one module per file
+- Guideline #7: Use proper indentation.
+- Guideline #8: Unless it's vendor's ip or examples, do one module per file.
 
 For more information on best practices and guidelines refer to [this](https://wiki.eecs.yorku.ca/course_archive/2013-14/F/3201/_media/verilog_coding_style_guidelines.pdf)
