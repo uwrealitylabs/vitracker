@@ -1,0 +1,8 @@
+# .style.verible.txt
+
+identation-spaces: 2
+column_limit 120
+port_declarations_alignment: align
+module_port_trailing_comma:always
+parameter_trailing_comma: always
+procedural_continuous_assignments_alignment: align

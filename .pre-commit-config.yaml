@@ -1,0 +1,15 @@
+repos:
+-  repo: local 
+   hooks:
+     - id: verible-lint
+       name: verible-verilog-lint
+       entry: verible-verilog-lint	
+       language: system
+       args: ['--rules_config', '.rules.verible_lint.txt']
+       types_or: [verilog, system-verilog]
+     - id: verible-format
+       name: verible-verilog-format
+       entry: bash -c 'verible-verilog-format --inplace "$@"' _ 
+       language: system
+       types_or: [verilog, system-verilog]
+#       args: ['--flagfile', 'file:.style.verible.txt', '--inplace']
