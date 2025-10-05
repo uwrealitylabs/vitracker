@@ -46,3 +46,9 @@ This is not strictly required but recommended for clarity:
 - Guideline #8: Unless it's vendor's ip or examples, do one module per file.
 
 For more information on best practices and guidelines refer to [this](https://wiki.eecs.yorku.ca/course_archive/2013-14/F/3201/_media/verilog_coding_style_guidelines.pdf)
+
+### Contributing
+1. Ask to be added as a member/collaborator to UW Reality Labs on GitHub.
+2. Create a branch for the task you are working on. Branch naming scheme is `<developer-name>/<feature>`. For example, `danglevm/do-some-task`.
+4. Make a PR. It needs approval by at least one other member in the VITracker team.
+5. Make requested changes and merge to main branch once PR is approved.
