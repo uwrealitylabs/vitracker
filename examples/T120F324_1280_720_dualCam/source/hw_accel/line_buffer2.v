@@ -31,10 +31,6 @@ module line_buffer2 #(
    output wire [DATA_WIDTH-1:0] dout_tap0,
    output wire [DATA_WIDTH-1:0] dout_tap1,
    output reg  [DATA_WIDTH-1:0] dout_tap2,
-   output reg  [DATA_WIDTH-1:0] dout_tap3,
-   output reg  [DATA_WIDTH-1:0] dout_tap4,
-   output reg  [DATA_WIDTH-1:0] dout_tap5,
-   output reg  [DATA_WIDTH-1:0] dout_tap6,
    //output wire                  dout_valid
    output wire                  dout_padded_valid
 );
