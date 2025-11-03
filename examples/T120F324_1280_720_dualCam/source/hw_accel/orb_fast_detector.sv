@@ -97,5 +97,5 @@ module fast_detector #(
 
    assign padding = (x_count=={X_COUNT_BIT{1'b0}}) || (y_count=={Y_COUNT_BIT{1'b0}}) || (x_count==IMG_WIDTH-1) || (y_count==IMG_HEIGHT-1);
 
-   //begin ORB algorithm
+   //begin ORB fast_detector processing
 endmodule
